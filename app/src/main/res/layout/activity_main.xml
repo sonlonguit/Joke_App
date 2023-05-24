@@ -36,7 +36,7 @@
         <LinearLayout
             android:id="@+id/greenLayout"
             android:layout_width="match_parent"
-            android:layout_height="121dp"
+            android:layout_height="89dp"
             android:layout_below="@+id/headerLayout"
             android:layout_marginTop="22dp"
             android:background="#29b363"
@@ -46,7 +46,7 @@
                 <TextView
                     android:id="@+id/greenTextView"
                     android:layout_width="380dp"
-                    android:layout_height="48dp"
+                    android:layout_height="37dp"
                     android:text="@string/sologan_jokes"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
@@ -56,8 +56,8 @@
 
                 <TextView
                     android:id="@+id/greenTextView2"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_width="382dp"
+                    android:layout_height="30dp"
                     android:text="@string/sologan_jokes2"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
@@ -120,14 +120,14 @@
         <TextView
             android:id="@+id/jokeTextView"
             android:layout_width="match_parent"
-            android:layout_height="202dp"
+            android:layout_height="232dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginTop="213dp"
+            android:layout_marginTop="183dp"
             android:layout_marginBottom="316dp"
             android:padding="16dp"
             android:textAlignment="center"
-            android:textSize="24sp"
+            android:textSize="16sp"
             tools:ignore="VisualLintBounds" />
 
         <Button
@@ -142,10 +142,11 @@
             android:layout_marginStart="223dp"
             android:layout_marginTop="450dp"
             android:layout_marginEnd="20dp"
-            android:layout_marginBottom="223dp"
+            android:layout_marginBottom="213dp"
             android:backgroundTint="#29b363"
             android:text="@string/btn_notFunny"
             android:textColor="#FFFFFF"
+            android:textSize="12sp"
             tools:ignore="TextContrastCheck,VisualLintOverlap,VisualLintButtonSize" />
 
         <Button
@@ -160,10 +161,11 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="450dp"
             android:layout_marginEnd="223dp"
-            android:layout_marginBottom="223dp"
+            android:layout_marginBottom="213dp"
             android:backgroundTint="#74D4FF"
             android:text="@string/btn_funny"
             android:textColor="#FFFFFF"
+            android:textSize="12sp"
             tools:ignore="VisualLintButtonSize,TextContrastCheck" />
 
 </RelativeLayout>
