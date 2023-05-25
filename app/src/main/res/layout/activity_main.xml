@@ -94,7 +94,7 @@
             android:clipToPadding="false"
             android:orientation="vertical"
             android:padding="16dp"
-            tools:ignore="TextSizeCheck">
+            tools:ignore="TextSizeCheck,VisualLintBounds">
 
 
                 <TextView
@@ -155,7 +155,7 @@
             android:textColor="#FFFFFF"
             android:textSize="14sp"
             app:cornerRadius="0dp"
-            tools:ignore="TextContrastCheck,VisualLintOverlap,VisualLintButtonSize,TouchTargetSizeCheck,TextSizeCheck" />
+            tools:ignore="TextContrastCheck,TextSizeCheck,TextViewEdits,TouchTargetSizeCheck,VisualLintButtonSize,VisualLintOverlap" />
 
         <Button
             android:id="@+id/likeButton"
@@ -176,7 +176,7 @@
             android:textColor="#FFFFFF"
             android:textSize="14sp"
             app:cornerRadius="0dp"
-            tools:ignore="VisualLintButtonSize,TextContrastCheck,TouchTargetSizeCheck" />
+            tools:ignore="TextContrastCheck,TextViewEdits,TouchTargetSizeCheck,VisualLintButtonSize" />
 
 
 </RelativeLayout>
