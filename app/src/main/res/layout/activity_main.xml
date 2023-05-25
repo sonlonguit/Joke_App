@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="89dp"
             android:layout_below="@+id/headerLayout"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="6dp"
             android:background="#29b363"
             android:orientation="vertical"
             android:padding="16dp">
@@ -51,7 +51,7 @@
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
                     android:textSize="20sp"
-                    android:textStyle="bold"
+                    android:textStyle="normal"
                     tools:ignore="TextSizeCheck,TextContrastCheck" />
 
                 <TextView
@@ -62,7 +62,7 @@
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
                     android:textSize="14sp"
-                    android:textStyle="bold"
+                    android:textStyle="normal"
                     tools:ignore="TextContrastCheck,TextSizeCheck" />
 
         </LinearLayout>
@@ -103,7 +103,7 @@
                     android:textColor="#8E8E8E"
                     android:textColorHint="#555555"
                     android:textSize="12sp"
-                    tools:ignore="TextContrastCheck" />
+                    tools:ignore="TextContrastCheck,VisualLintLongText" />
 
                 <TextView
                     android:id="@+id/textView"
@@ -121,11 +121,11 @@
         <TextView
             android:id="@+id/jokeTextView"
             android:layout_width="match_parent"
-            android:layout_height="232dp"
+            android:layout_height="285dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
             android:layout_marginTop="183dp"
-            android:layout_marginBottom="316dp"
+            android:layout_marginBottom="263dp"
             android:padding="16dp"
             android:textAlignment="center"
             android:textSize="16sp"
@@ -133,41 +133,41 @@
 
         <Button
             android:id="@+id/dislikeButton"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
+            style="@style/Widget.MaterialComponents.TimePicker.Button"
+            android:layout_width="163dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="223dp"
-            android:layout_marginTop="450dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="213dp"
+            android:layout_marginStart="224dp"
+            android:layout_marginTop="490dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="196dp"
             android:backgroundTint="#29b363"
             android:text="@string/btn_notFunny"
             android:textColor="#FFFFFF"
-            android:textSize="12sp"
-            tools:ignore="TextContrastCheck,VisualLintOverlap,VisualLintButtonSize" />
+            android:textSize="16sp"
+            tools:ignore="TextContrastCheck,VisualLintOverlap,VisualLintButtonSize,TouchTargetSizeCheck,TextSizeCheck" />
 
         <Button
             android:id="@+id/likeButton"
-            style="?android:attr/buttonBarButtonStyle"
+            style="@style/Widget.MaterialComponents.TimePicker.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="450dp"
-            android:layout_marginEnd="223dp"
-            android:layout_marginBottom="213dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="490dp"
+            android:layout_marginEnd="224dp"
+            android:layout_marginBottom="196dp"
             android:backgroundTint="#2c7edb"
             android:text="@string/btn_funny"
             android:textColor="#FFFFFF"
-            android:textSize="12sp"
-            tools:ignore="VisualLintButtonSize,TextContrastCheck" />
+            android:textSize="16sp"
+            tools:ignore="VisualLintButtonSize,TextContrastCheck,TouchTargetSizeCheck" />
 
 </RelativeLayout>
 
